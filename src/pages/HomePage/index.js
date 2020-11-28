@@ -18,7 +18,7 @@ function HomePage() {
     const {data, loading} = useFetch(`https://rickandmortyapi.com/api/character/${ number }`)
 
     return (
-        <div style={{width: "100%", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column"}}>
+        <div style={{width: "100%", display: "flex", marginTop:80, justifyContent: "center", alignItems: "center", flexDirection: "column"}}>
             {
             loading?
                 <Loading />

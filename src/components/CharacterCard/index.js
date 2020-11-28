@@ -8,7 +8,7 @@ function CharacterCard({ data }) {
 
     return (
         <>
-            <div style={{width: 300}}>
+            <div style={{width: 270}}>
                 <img src={ image } alt={ name } style={{width: "100%"}} className="charcater-card__img"/>
             </div>
             <h1 className="charcater-card__name">{ name }</h1>
