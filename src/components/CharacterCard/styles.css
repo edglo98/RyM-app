@@ -1,0 +1,7 @@
+.charcater-card__img{
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px #00000060;
+}
+.charcater-card__name{
+    text-align: center;
+}

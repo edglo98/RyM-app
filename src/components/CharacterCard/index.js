@@ -1,17 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import "./styles.css"
 
 function CharacterCard({ data }) {
     console.log(data)
     const { name, image } = data
 
     return (
-        <div>
-            <div>{ name }</div>
+        <>
             <div style={{width: 300}}>
-                <img src={ image } alt={ name } style={{width: "100%"}}/>
+                <img src={ image } alt={ name } style={{width: "100%"}} className="charcater-card__img"/>
             </div>
-        </div>
+            <h1 className="charcater-card__name">{ name }</h1>
+        </>
     )
 }
 
